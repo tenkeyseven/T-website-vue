@@ -1,8 +1,8 @@
-# project-x
+# project-x(T-website-vue)
 
 ## Project setup
 ```
-yarn install
+yar
 ```
 
 ### Compiles and hot-reloads for development
@@ -19,6 +19,9 @@ yarn build
 ```
 yarn lint
 ```
-
+### Deploy
+```
+yarn deploy
+```
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
