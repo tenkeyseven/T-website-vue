@@ -61,7 +61,7 @@ export default {
 }
 
 .Info-List {
-  margin-top: 10px;
+  margin-top: 18px;
   width: auto;
   height: 21px;
 
@@ -77,7 +77,7 @@ export default {
 
 .Info-List::before {
   margin-right: 10px;
-  margin-top: 10px;
+  margin-top: 18px;
   content: ">";
   width: 452px;
   height: 21px;

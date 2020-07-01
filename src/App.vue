@@ -9,11 +9,17 @@
       <info-block :title="rscTitle" :infolist="rscInfoList"></info-block>
       <info-block :title="focTitle" :infolist="focInfoList"></info-block>
     </div>
-    <div id="div-line-end"></div>
+    <!-- <div id="div-line-end"></div> -->
     <img id="building-img" src=".\assets\investment-building.svg" />
     <div id="building-info-container">
       <div id="building-text">Building</div>
       <img id="dots-color" src="./assets/dots-color.svg" />
+    </div>
+    <div id="footer">
+      <p class="footer-text">
+        TenkeySeven@2020
+        <a class="footer-text" href="http://www.beian.miit.gov.cn/">京 ICP 备 17065315</a>
+      </p>
     </div>
   </div>
 </template>
@@ -79,6 +85,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
+  margin:0 0;
+  padding:0 0;
 }
 
 #app {
@@ -167,5 +175,33 @@ body {
   text-align: center;
 
   color: #263238;
+}
+
+#footer {
+  margin-top: 30px;
+  width: auto;
+  height: 409px;
+  left: -20px;
+  background-image: url("./assets/footer-wave.svg");
+  
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: stretch;
+}
+
+.footer-text {
+  margin-bottom: 20px;
+  margin-top: auto;
+  font-family: Microsoft YaHei UI;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #fafafa;
 }
 </style>
