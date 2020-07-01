@@ -10,7 +10,7 @@
       <info-block :title="focTitle" :infolist="focInfoList"></info-block>
     </div>
     <!-- <div id="div-line-end"></div> -->
-    <img id="building-img" src=".\assets\investment-building.svg" />
+    <img id="building-img" src="./assets/investment-building.svg" />
     <div id="building-info-container">
       <div id="building-text">Building</div>
       <img id="dots-color" src="./assets/dots-color.svg" />
