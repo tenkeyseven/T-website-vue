@@ -5,6 +5,9 @@
     <div id="info-container">
       <img id="avatar" src="./assets/tk-avatar.jpg" />
       <div id="admin-name">TenkeySeven</div>
+      <info-block :title="eduTitle" :infolist="eduInfoList"></info-block>
+      <info-block :title="rscTitle" :infolist="rscInfoList"></info-block>
+      <info-block :title="focTitle" :infolist="focInfoList"></info-block>
     </div>
     <div id="div-line-end"></div>
     <img id="building-img" src=".\assets\investment-building.svg" />
@@ -17,11 +20,51 @@
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
+import InfoBlock from "./components/InfoBlock.vue";
 
 export default {
   name: "App",
   components: {
-    // HelloWorld
+    InfoBlock
+  },
+  data: function() {
+    return {
+      eduTitle: "Education",
+      eduInfoList: [
+        {
+          id: 1,
+          content: "Beijing Institute of technology (Bachelor, 2016-2020)"
+        },
+        {
+          id: 2,
+          content: "Beijing Institute of technology (Master, Since 2020)"
+        }
+      ],
+
+      rscTitle: "Research Interest",
+      rscInfoList: [
+        {
+          id: 1,
+          content: "Backdoor Attacks against Neural Netwoks"
+        },
+        {
+          id: 2,
+          content: "Adversarial Examples"
+        }
+      ],
+
+      focTitle: "Recent Focus",
+      focInfoList: [
+        {
+          id: 1,
+          content: "Playing with Guitar and cute Ukulele"
+        },
+        {
+          id: 2,
+          content: "Hang Around the Canyon..."
+        }
+      ]
+    };
   },
   methods: {
     clickDots: function() {
