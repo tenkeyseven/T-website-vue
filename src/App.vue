@@ -81,12 +81,15 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap');
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
   margin:0 0;
   padding:0 0;
+  overflow-x: hidden;
 }
 
 #app {
@@ -139,7 +142,7 @@ body {
 
 #admin-name {
   margin-top: 10px;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 48px;
@@ -167,7 +170,7 @@ body {
 }
 
 #building-text {
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 48px;
@@ -181,7 +184,6 @@ body {
   margin-top: 30px;
   width: auto;
   height: 409px;
-  left: -20px;
   background-image: url("./assets/footer-wave.svg");
   
   display: flex;
