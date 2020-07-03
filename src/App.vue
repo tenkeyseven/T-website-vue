@@ -10,9 +10,11 @@
       <info-block :title="focTitle" :infolist="focInfoList"></info-block>
     </div>
     <!-- <div id="div-line-end"></div> -->
-    <img id="building-img" src="./assets/investment-building.svg" />
+    <!-- <img id="building-img" src="./assets/investment-building.svg" /> -->
+    <skate-meow>
+    </skate-meow>
     <div id="building-info-container">
-      <div id="building-text">Building</div>
+      <div id="building-text">Meow is Working</div>
       <img id="dots-color" src="./assets/dots-color.svg" />
     </div>
     <div id="footer">
@@ -27,11 +29,13 @@
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 import InfoBlock from "./components/InfoBlock.vue";
+import SkateMeow from "./components/SkateMeow.vue";
 
 export default {
   name: "App",
   components: {
-    InfoBlock
+    InfoBlock,
+    SkateMeow
   },
   data: function() {
     return {
@@ -172,7 +176,7 @@ body {
 #building-text {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 300;
   font-size: 48px;
   line-height: 56px;
   text-align: center;
