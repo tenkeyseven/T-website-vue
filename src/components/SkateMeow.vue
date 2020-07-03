@@ -205,12 +205,12 @@
             fill="#98aebe"
           />
           <path
+            id="tail"
             d="M506.637 298.528v24.771s-.061 26.915-28.211 26.915"
             fill="none"
             stroke="#98aebe"
             stroke-width="14"
             stroke-linecap="round"
-            id="tail"
           />
 
           <path
@@ -277,13 +277,13 @@ export default {
     let tail = gsap.timeline({ repeat: -1, yoyo: true });
 
     tail
-      .to("tail", {
+      .to("#tail", {
         ease: "power1.in",
         morphSVG: { shape: "M506.637,298.528L506.637,350.214" },
         duration: 0.5,
         delay: 3
       })
-      .to("tail", {
+      .to("#tail", {
         ease: "power1.out",
         morphSVG: {
           shape:
@@ -295,12 +295,12 @@ export default {
 
     let skate = gsap.timeline({ repeat: -1 });
     skate
-      .to("skateCat", {
+      .to("#skateCat", {
         x: 20,
         delay: 4 + 0.5,
         ease: "power1.inOut"
       })
-      .to("skateCat", {
+      .to("#skateCat", {
         x: 0,
         delay: 2.5,
         ease: "power1.inOut"
@@ -415,8 +415,8 @@ body {
   margin-right: auto;
   width: auto;
   height: auto;
-  max-width:880px;
-  max-height:660px;
+  max-width: 880px;
+  max-height: 660px;
 }
 
 /* #fly {
