@@ -14,7 +14,7 @@
     <skate-meow>
     </skate-meow>
     <div id="building-info-container">
-      <div id="building-text">Meow is Working</div>
+      <div id="building-text">⛳Meow is on Vacation</div>
       <img id="dots-color" src="./assets/dots-color.svg" />
     </div>
     <div id="footer">
@@ -72,6 +72,10 @@ export default {
         {
           id: 2,
           content: "Hang Around the Canyon..."
+        },
+        {
+          id: 3,
+          content: "Fly to Kunming for vacation"
         }
       ]
     };
@@ -165,6 +169,7 @@ body {
 }
 
 #building-info-container {
+  margin-bottom: 20px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
