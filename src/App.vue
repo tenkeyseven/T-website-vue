@@ -67,11 +67,7 @@ export default {
       focInfoList: [
         {
           id: 1,
-          content: "Playing with Guitar and cute Ukulele"
-        },
-        {
-          id: 2,
-          content: "Hang Around the Canyon..."
+          content: "⚡ Working on a novel backdoor attack"
         },
       ]
     };
