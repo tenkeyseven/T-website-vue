@@ -74,7 +74,7 @@ export default {
   },
   methods: {
     clickDots: function() {
-      alert("Hey you find me!");
+      alert("🚙");
     }
   }
 };
