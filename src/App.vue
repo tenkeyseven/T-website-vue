@@ -20,7 +20,7 @@
     </div>
     <div id="footer">
       <p class="footer-text">
-        TenkeySeven@2020
+        TenkeySeven@2021
         <a class="footer-text" href="http://www.beian.miit.gov.cn/">京 ICP 备 17065315</a>
       </p>
     </div>
