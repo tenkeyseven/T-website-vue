@@ -8,13 +8,14 @@
       <info-block :title="eduTitle" :infolist="eduInfoList"></info-block>
       <info-block :title="rscTitle" :infolist="rscInfoList"></info-block>
       <info-block :title="focTitle" :infolist="focInfoList"></info-block>
+      <info-block :title="recTitle" :infolist="recInfoList"></info-block>
     </div>
     <!-- <div id="div-line-end"></div> -->
     <!-- <img id="building-img" src="./assets/investment-building.svg" /> -->
     <skate-meow>
     </skate-meow>
     <div id="building-info-container">
-      <div id="building-text">🎨 Back to work</div>
+      <div id="building-text">🍓 Working</div>
       <img id="dots-color" src="./assets/dots-color.svg" />
     </div>
     <div id="footer">
@@ -69,7 +70,22 @@ export default {
           id: 1,
           content: "⚡ Working on a novel backdoor attack"
         },
-      ]
+        {
+          id: 2,
+          content: "⚡ Paper is under construction"
+        },                
+      ],
+      recTitle: "Things on the way",
+      recInfoList:[
+        {
+          id: 1,
+          content: "🍥 2020 年度总结 - Blog 版本"
+        },
+        {
+          id: 2,
+          content: "🍕 2020 年度总结 - Vlog 版本"
+        }
+      ]    
     };
   },
   methods: {
