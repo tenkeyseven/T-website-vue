@@ -85,12 +85,12 @@ export default {
           id: 2,
           content: "🍕 2020 年度总结 - Vlog 版本"
         }
-      ]    
+      ]
     };
   },
   methods: {
-    clickDots: function() {
-      alert("🚙");
+    clickDots: function() {·
+      alert("矩阵分析好楠阿呜呜呜呜 qaq  P-1 A P");
     }
   }
 };
