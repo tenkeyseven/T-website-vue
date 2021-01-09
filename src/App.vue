@@ -89,7 +89,7 @@ export default {
     };
   },
   methods: {
-    clickDots: function() {·
+    clickDots: function() {
       alert("矩阵分析好楠阿呜呜呜呜 qaq  P-1 A P");
     }
   }
